@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.layouttest7.MainActivity" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="30dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:text="Space"
+        android:textSize="8sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/artt" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:text="Top 10 Science Stories of 2014 "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="2 days ago from CBC News"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="50dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/textView1"
+        android:layout_toRightOf="@+id/button1"
+        android:background="#ffffff"
+        android:text="Astronomy"
+        android:layout_marginRight="12dp"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="42dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/textView1"
+        android:layout_toRightOf="@+id/button2"
+        android:background="#ffffff"
+        android:text="Health"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="42dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/textView1"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/button3"
+        android:background="#ffffff"
+        android:text="illinois"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_above="@+id/textView1"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/button4"
+        android:background="#ffffff"
+        android:text="United States of America"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:text="1. Giant virus revival"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginRight="25dp"
+        android:text="The Nauru reed warbler is potentially threatened by introduced predators and habitat loss, and its small range leaves the species vulnerable to diseases and tropical cyclones. Reports of a similar warbler from nearby islands suggest that the Nauru reed warbler may have been eradicated from those islands by introduced cats. "
+        android:textSize="10sp" />
+
+</RelativeLayout>
